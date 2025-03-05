@@ -17,6 +17,19 @@ export default function RootLayout({ children }) {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Paw Hope Rescue</title>
+        <meta name="description" content="Tears As Golden Retriever Bows Head in Sorrow After Being The Last Dog Left At PawHope Rescue" />
+        <meta name="keywords" content="pet rescue, adopt, save pets, hope for pets" />
+        <meta name="author" content="You Can Help This Dog" />
+
+        {/* Open Graph Meta Tags (for Facebook, LinkedIn, etc.) */}
+        <meta property="og:title" content="Tears As Golden Retriever Bows Head in Sorrow After Being The Last Dog Left At PawHope Rescue" />
+        <meta property="og:description" content="pet rescue, adopt, save pets, hope for pets,  Tears As Golden Retriever Bows Head in Sorrow After Being The Last Dog Left At PawHope Rescue" />
+        <meta property="og:image" content="https://res.cloudinary.com/dkfmaqtpy/image/upload/v1741216740/quality_restoration_20250303171746036_jwxqvt.jpg" />
+        <meta property="og:url" content="https://pawhope.vercel.app" />
+        <meta property="og:type" content="website" />
+
       </head>
       <body className={`${inter.className} overflow-x-hidden`}>
         {/* Google Analytics */}
